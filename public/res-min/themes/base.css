@@ -85,17 +85,17 @@ dt{font-weight:bold}
 dd{margin-left:0}
 @media (min-width:768px){.dl-horizontal dt{float:left;width:160px;clear:left;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap} .dl-horizontal dd{margin-left:180px}.dl-horizontal dd:before,.dl-horizontal dd:after{content:" ";display:table;} .dl-horizontal dd:after{clear:both} .dl-horizontal dd:before,.dl-horizontal dd:after{content:" ";display:table;} .dl-horizontal dd:after{clear:both}}abbr[title],abbr[data-original-title]{cursor:help;border-bottom:1px dotted #999}
 abbr.initialism{font-size:90%;text-transform:uppercase}
-blockquote{padding:10px 20px;margin:0 0 20px;border-left:5px solid #eee}blockquote p{font-size:17.5px;font-weight:300;line-height:1.25}
+blockquote{padding:10px 20px;margin:0 0 20px;border-left:5px solid #d5d5d5}blockquote p{font-size:17.5px;font-weight:300;line-height:1.25}
 blockquote p:last-child{margin-bottom:0}
 blockquote small{display:block;line-height:1.428571429;color:#999}blockquote small:before{content:'\2014 \00A0'}
-blockquote.pull-right{padding-right:15px;padding-left:0;border-right:5px solid #eee;border-left:0}blockquote.pull-right p,blockquote.pull-right small{text-align:right}
+blockquote.pull-right{padding-right:15px;padding-left:0;border-right:5px solid #d5d5d5;border-left:0}blockquote.pull-right p,blockquote.pull-right small{text-align:right}
 blockquote.pull-right small:before{content:''}
 blockquote.pull-right small:after{content:'\00A0 \2014'}
 q:before,q:after,blockquote:before,blockquote:after{content:""}
 address{display:block;margin-bottom:20px;font-style:normal;line-height:1.428571429}
 code,pre{font-family:Monaco,Menlo,Consolas,"Courier New",monospace}
 code{padding:2px 4px;font-size:90%;color:#000;background-color:rgba(0,0,0,0.04);white-space:nowrap;border-radius:4px}
-pre{display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.428571429;word-break:break-all;word-wrap:break-word;color:#333;background-color:#f8f8f8;border:1px solid #eee;border-radius:4px}pre.prettyprint{margin-bottom:20px}
+pre{display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.428571429;word-break:break-all;word-wrap:break-word;color:#333;background-color:#dfdfdf;border:1px solid #d5d5d5;border-radius:4px}pre.prettyprint{margin-bottom:20px}
 pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;background-color:transparent;border:0}
 .pre-scrollable{max-height:340px;overflow-y:scroll}
 .container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.container:before,.container:after{content:" ";display:table;}
@@ -1170,12 +1170,12 @@ li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}
 @font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url("../font/OpenSans-Light-webfont.woff") format('woff')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url("../font/OpenSans-Regular-webfont.woff") format('woff')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url("../font/OpenSans-Bold-webfont.woff") format('woff')}@font-face{font-family:'Open Sans';font-style:italic;font-weight:300;src:local('Open Sans Light Italic'),local('OpenSansLight-Italic'),url("../font/OpenSans-LightItalic-webfont.woff") format('woff')}@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'),local('OpenSans-Italic'),url("../font/OpenSans-Italic-webfont.woff") format('woff')}@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'),local('OpenSans-BoldItalic'),url("../font/OpenSans-BoldItalic-webfont.woff") format('woff')}@media screen and (-webkit-min-device-pixel-ratio:0){@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url('../font/OpenSans-Light-webfont.svg') format('svg')}}@media screen and (-webkit-min-device-pixel-ratio:0){@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url('../font/OpenSans-Regular-webfont.svg') format('svg')}}@media screen and (-webkit-min-device-pixel-ratio:0){@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url('../font/OpenSans-Bold-webfont.svg') format('svg')}}@media screen and (-webkit-min-device-pixel-ratio:0){@font-face{font-family:'Open Sans';font-style:italic;font-weight:300;src:local('Open Sans Light Italic'),local('OpenSansLight-Italic'),url('../font/OpenSans-LightItalic-webfont.svg') format('svg')}}@media screen and (-webkit-min-device-pixel-ratio:0){@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'),local('OpenSans-Italic'),url('../font/OpenSans-Italic-webfont.svg') format('svg')}}@media screen and (-webkit-min-device-pixel-ratio:0){@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'),local('OpenSans-BoldItalic'),url('../font/OpenSans-BoldItalic-webfont.svg') format('svg')}}body{-webkit-font-smoothing:antialiased}
 .container{margin-bottom:180px}
 a code{color:inherit}
-h1{font-size:36px}
-h2{font-size:30px}
-h3{font-size:24px}
-h4{font-size:18px}
-h5{font-size:14px}
-h6{font-size:12px}
+h1{font-size:31px}
+h2{font-size:25px}
+h3{font-size:21px}
+h4{font-size:15px}
+h5{font-size:12px}
+h6{font-size:11px}
 h1{margin:60px 0 40px}
 h2{margin:50px 0 30px}
 h3{margin:35px 0 20px}
@@ -1183,7 +1183,7 @@ h4,h5,h6{margin:25px 0 15px}
 p,pre,pre.prettyprint,blockquote{margin:0 0 15px}
 hr{margin:30px 0}
 code,pre{font-family:Menlo,Consolas,"Courier New",monospace;font-size:12px !important}
-pre,pre.prettyprint{border:0 solid #eee;border-left:10px solid #eee;border-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px;padding:10px 15px}pre code,pre.prettyprint code{background-color:transparent !important}
+pre,pre.prettyprint{border:0 solid #d5d5d5;border-left:10px solid #d5d5d5;border-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px;padding:10px 15px}pre code,pre.prettyprint code{background-color:transparent !important}
 dt,dd{margin-top:5px;margin-bottom:5px}
 dd{margin-left:40px}
 table{margin-bottom:20px}
@@ -1192,7 +1192,7 @@ table th{font-weight:bold}
 table thead th{vertical-align:bottom}
 table caption+thead tr:first-child th,table caption+thead tr:first-child td,table colgroup+thead tr:first-child th,table colgroup+thead tr:first-child td,table thead:first-child tr:first-child th,table thead:first-child tr:first-child td{border-top:0}
 table tbody+tbody{border-top:2px solid #dddddd}
-blockquote{border-left-width:10px;background-color:#f8f8f8;border-top-right-radius:5px;border-bottom-right-radius:5px;padding:15px 20px}blockquote p{margin-bottom:15px;font-size:14px;line-height:1.428571429}
+blockquote{border-left-width:10px;background-color:#dfdfdf;border-top-right-radius:5px;border-bottom-right-radius:5px;padding:15px 20px}blockquote p{margin-bottom:15px;font-size:14px;line-height:1.428571429}
 blockquote ul:last-child,blockquote ol:last-child{margin-bottom:0}
 ul,ol{margin-bottom:15px}ul ul,ol ul,ul ol,ol ol{margin-bottom:15px}
 kbd{padding:0.1em 0.6em;border:1px solid rgba(0,0,0,0.25);-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.25);box-shadow:0 1px 0 rgba(0,0,0,0.25);font-size:11px;font-family:Arial,Helvetica,sans-serif;background-color:#fff;color:#333;border-radius:3px;display:inline-block;margin:0 0.1em;white-space:nowrap}

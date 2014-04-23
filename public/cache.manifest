@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#Date Mon Apr 21 2014 18:27:03
+#Date Wed Apr 23 2014 15:02:31
 
 CACHE:
 res/worker.js
@@ -11,6 +11,14 @@ libs/MathJax/images/MenuArrow-15.png
 libs/MathJax/jax/output/HTML-CSS/jax.js
 
 #DynamicResourcesBegin
+res-min/font/cursive_standard-webfont.eot
+res-min/font/cursive_standard-webfont.svg
+res-min/font/cursive_standard-webfont.ttf
+res-min/font/cursive_standard-webfont.woff
+res-min/font/fontello.eot
+res-min/font/fontello.svg
+res-min/font/fontello.ttf
+res-min/font/fontello.woff
 res-min/font/OpenSans-Bold-webfont.svg
 res-min/font/OpenSans-Bold-webfont.woff
 res-min/font/OpenSans-BoldItalic-webfont.svg
@@ -23,14 +31,6 @@ res-min/font/OpenSans-LightItalic-webfont.svg
 res-min/font/OpenSans-LightItalic-webfont.woff
 res-min/font/OpenSans-Regular-webfont.svg
 res-min/font/OpenSans-Regular-webfont.woff
-res-min/font/cursive_standard-webfont.eot
-res-min/font/cursive_standard-webfont.svg
-res-min/font/cursive_standard-webfont.ttf
-res-min/font/cursive_standard-webfont.woff
-res-min/font/fontello.eot
-res-min/font/fontello.svg
-res-min/font/fontello.ttf
-res-min/font/fontello.woff
 res-min/img/gittip.png
 res-min/img/icons.png
 res-min/img/icons2x.png
@@ -54,20 +54,22 @@ libs/dictionaries/es_ES.aff.lz
 libs/dictionaries/es_ES.dic.lz
 libs/dictionaries/fr_FR.aff.lz
 libs/dictionaries/fr_FR.dic.lz
+libs/MathJax/extensions/asciimath2jax.js
 libs/MathJax/extensions/FontWarnings.js
-libs/MathJax/extensions/HTML-CSS/handle-floats.js
 libs/MathJax/extensions/HelpDialog.js
+libs/MathJax/extensions/HTML-CSS/handle-floats.js
+libs/MathJax/extensions/jsMath2jax.js
 libs/MathJax/extensions/MatchWebFonts.js
 libs/MathJax/extensions/MathEvents.js
-libs/MathJax/extensions/MathML/content-mathml.js
 libs/MathJax/extensions/MathMenu.js
+libs/MathJax/extensions/MathML/content-mathml.js
 libs/MathJax/extensions/MathZoom.js
+libs/MathJax/extensions/mml2jax.js
 libs/MathJax/extensions/Safe.js
+libs/MathJax/extensions/TeX/action.js
 libs/MathJax/extensions/TeX/AMScd.js
 libs/MathJax/extensions/TeX/AMSmath.js
 libs/MathJax/extensions/TeX/AMSsymbols.js
-libs/MathJax/extensions/TeX/HTML.js
-libs/MathJax/extensions/TeX/action.js
 libs/MathJax/extensions/TeX/autobold.js
 libs/MathJax/extensions/TeX/autoload-all.js
 libs/MathJax/extensions/TeX/bbox.js
@@ -77,6 +79,7 @@ libs/MathJax/extensions/TeX/cancel.js
 libs/MathJax/extensions/TeX/color.js
 libs/MathJax/extensions/TeX/enclose.js
 libs/MathJax/extensions/TeX/extpfeil.js
+libs/MathJax/extensions/TeX/HTML.js
 libs/MathJax/extensions/TeX/mathchoice.js
 libs/MathJax/extensions/TeX/mhchem.js
 libs/MathJax/extensions/TeX/newcommand.js
@@ -84,9 +87,6 @@ libs/MathJax/extensions/TeX/noErrors.js
 libs/MathJax/extensions/TeX/noUndefined.js
 libs/MathJax/extensions/TeX/unicode.js
 libs/MathJax/extensions/TeX/verb.js
-libs/MathJax/extensions/asciimath2jax.js
-libs/MathJax/extensions/jsMath2jax.js
-libs/MathJax/extensions/mml2jax.js
 libs/MathJax/extensions/tex2jax.js
 libs/MathJax/extensions/toMathML.js
 libs/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff
@@ -126,9 +126,9 @@ libs/MathJax/jax/element/mml/optable/MiscMathSymbolsB.js
 libs/MathJax/jax/element/mml/optable/MiscSymbolsAndArrows.js
 libs/MathJax/jax/element/mml/optable/MiscTechnical.js
 libs/MathJax/jax/element/mml/optable/SpacingModLetters.js
-libs/MathJax/jax/element/mml/optable/SuppMathOperators.js
 libs/MathJax/jax/element/mml/optable/SupplementalArrowsA.js
 libs/MathJax/jax/element/mml/optable/SupplementalArrowsB.js
+libs/MathJax/jax/element/mml/optable/SuppMathOperators.js
 libs/MathJax/jax/output/HTML-CSS/autoload/annotation-xml.js
 libs/MathJax/jax/output/HTML-CSS/autoload/maction.js
 libs/MathJax/jax/output/HTML-CSS/autoload/menclose.js
@@ -159,6 +159,8 @@ libs/MathJax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/SpacingModLetters.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/AMS/Regular/SuppMathOperators.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Caligraphic/Bold/Main.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Caligraphic/Regular/Main.js
+libs/MathJax/jax/output/HTML-CSS/fonts/TeX/fontdata-extra.js
+libs/MathJax/jax/output/HTML-CSS/fonts/TeX/fontdata.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Fraktur/Bold/BasicLatin.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Fraktur/Bold/Main.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Fraktur/Bold/Other.js
@@ -186,8 +188,8 @@ libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/MiscMathSymbolsA.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/MiscSymbols.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/MiscTechnical.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/SpacingModLetters.js
-libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/SuppMathOperators.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/SupplementalArrowsA.js
+libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Main/Bold/SuppMathOperators.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Main/Italic/CombDiacritMarks.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Main/Italic/GeneralPunctuation.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/Main/Italic/Latin1Supplement.js
@@ -227,8 +229,10 @@ libs/MathJax/jax/output/HTML-CSS/fonts/TeX/WinChrome/Regular/Main.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/WinIE6/Regular/AMS.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/WinIE6/Regular/Bold.js
 libs/MathJax/jax/output/HTML-CSS/fonts/TeX/WinIE6/Regular/Main.js
-libs/MathJax/jax/output/HTML-CSS/fonts/TeX/fontdata-extra.js
-libs/MathJax/jax/output/HTML-CSS/fonts/TeX/fontdata.js
+libs/MathJax/jax/output/HTML-CSS/fonts/STIX/fontdata-1.0.js
+libs/MathJax/jax/output/HTML-CSS/fonts/STIX/fontdata-beta.js
+libs/MathJax/jax/output/HTML-CSS/fonts/STIX/fontdata-extra.js
+libs/MathJax/jax/output/HTML-CSS/fonts/STIX/fontdata.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Bold/AlphaPresentForms.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Bold/Arrows.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Bold/BBBold.js
@@ -299,6 +303,7 @@ libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/EnclosedAlphanum.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/GeneralPunctuation.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/GreekAndCoptic.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/GreekItalic.js
+libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/ij.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/IPAExtensions.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/Latin1Supplement.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/LatinExtendedA.js
@@ -308,10 +313,9 @@ libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/LetterlikeSymbols.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/Main.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/MathItalic.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/MathOperators.js
-libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/MathSSItalic.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/MathScript.js
+libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/MathSSItalic.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/SpacingModLetters.js
-libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/ij.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/AlphaPresentForms.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Arrows.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/BBBold.js
@@ -336,6 +340,7 @@ libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GreekItalic.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GreekSSBold.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GreekSSBoldItalic.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Hiragana.js
+libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/ij.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/IPAExtensions.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Latin1Supplement.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/LatinExtendedA.js
@@ -349,11 +354,11 @@ libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathBoldItalic.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathBoldScript.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathItalic.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathOperators.js
+libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathScript.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathSS.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathSSBold.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathSSItalic.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathSSItalicBold.js
-libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathScript.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathTT.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MiscMathSymbolsA.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MiscMathSymbolsB.js
@@ -365,10 +370,9 @@ libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/PhoneticExtensions.j
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/SpacingModLetters.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/Specials.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/SuperAndSubscripts.js
-libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/SuppMathOperators.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/SupplementalArrowsA.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/SupplementalArrowsB.js
-libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/ij.js
+libs/MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/SuppMathOperators.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/IntegralsD/Bold/All.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/IntegralsD/Regular/All.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/IntegralsD/Regular/Main.js
@@ -415,10 +419,6 @@ libs/MathJax/jax/output/HTML-CSS/fonts/STIX/Variants/Bold/All.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/Variants/Bold/Main.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/Variants/Regular/All.js
 libs/MathJax/jax/output/HTML-CSS/fonts/STIX/Variants/Regular/Main.js
-libs/MathJax/jax/output/HTML-CSS/fonts/STIX/fontdata-1.0.js
-libs/MathJax/jax/output/HTML-CSS/fonts/STIX/fontdata-beta.js
-libs/MathJax/jax/output/HTML-CSS/fonts/STIX/fontdata-extra.js
-libs/MathJax/jax/output/HTML-CSS/fonts/STIX/fontdata.js
 #DynamicResourcesEnd
 
 NETWORK:
